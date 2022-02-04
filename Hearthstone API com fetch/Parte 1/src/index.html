@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HearthStone Classic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="img/favcon.jpg">
+
+
+</head>
+
+<body class="bg-[url('img/fundo.png')] text-white h-screen">
+    <div class="flex h-screen justify-center items-center absolute w-full backdrop-blur-3xl bg-black/50" id="modal">
+        <div class="text-center mx-auto">
+            <img src="img/loading.gif" class="w-2/4 rounded-md mx-auto ">
+            <h1 class="text-4xl">Caregando! se nada acontecer por favor recaregue a pagina</h1>
+        </div>
+    </div>
+    <div class="w-full bg-[url('img/madeira_top.png')] text-center text-white inline-block align-middle text-4xl p-5">
+        <h1>Hearthstone: <span class="font-bold">CLASSIC</span></h1>
+    </div>
+
+
+    <div id="cartas" class="flex flex-wrap place-content-center min-h-full text-white"></div>
+
+    <div class="w-full bottom-0"><img class="w-full" src="img/madeira_footer.jpg" alt=""></div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

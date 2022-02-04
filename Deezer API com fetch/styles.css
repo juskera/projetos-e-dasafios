@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+.titulo {
+    grid-area: titulo;
+    padding: 15px;
+}
+
+.artista {
+    grid-area: artista;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    grid-area: imagem;
+    border-radius: 50%;
+}
+
+.play {
+    grid-area: play;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.informaçoes {
+    grid-area: informaçoes;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+}
+
+form {
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    margin-left: 1px;
+    padding: 10px;
+    border-radius: 15px 0 0 15px;
+    width: 300px;
+}
+
+form button {
+    margin-right: 1px;
+    border-radius: 0 15px 15px 0;
+    padding: 10px;
+    background-color: white;
+}
+
+button img {
+    height: 13px;
+}
+
+.playBtn {
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.music {
+    display: grid;
+    grid-template-areas: 'titulo titulo titulo titulo titulo titulo' 'imagem artista artista informaçoes informaçoes informaçoes' 'imagem play play play play play';
+    grid-gap: 5px;
+    margin: 15px 15% 15px 15%;
+    border-radius: 15px;
+    /* border: solid white 1px; */
+    padding: 15px;
+}
+
+.music:hover {
+    background-color: #2a2a2a;
+}
+
+.music div {
+    border: solid #1db954 1px;
+    border-radius: 15px;
+}
+
+.artista img {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.artista p {
+    margin-left: 30px;
+}
+
+.artista .title {
+    position: relative;
+    top: -1.5em;
+    margin-left: -3em;
+    display: inline;
+    background-color: white;
+    color: black;
+}
+
+.imagem img {
+    border-radius: 50%;
+    border: solid #1db954 1px;
+    margin-top: 3px;
+}
+
+audio {
+    filter: sepia(100%) saturate(70%) grayscale(1) contrast(99%) invert(100%);
+    width: 500px;
+    height: 35px;
+    border-radius: 15px;
+    /* color: blue; */
+}

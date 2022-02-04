@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*,
+input,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+header {
+    padding: 1.6rem;
+    background-color: #414141;
+    margin-bottom: 2.4rem;
+}
+
+header span {
+    font-size: 2rem;
+    margin: auto;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: left;
+    font-size: 2.8rem;
+    width: 45%;
+    margin: auto;
+}
+
+form {
+    background-color: #e4e4e4;
+    width: max-content;
+    margin: auto;
+    margin-top: 1.6rem;
+    padding: 3.2rem;
+    border-radius: 0.4rem;
+}
+
+form .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+}
+
+form .input label {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+form .input input {
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 2.2rem;
+}
+
+form div button {
+    width: 100%;
+    border: 0;
+    font-size: 2.4rem;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    background-color: #48fc60;
+    cursor: pointer;
+}
+
+form div button:hover {
+    filter: brightness(0.95);
+}
+
+
+/* Modais que mostram informações */
+
+#fundo-modal {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+#resultado,
+#historico {
+    visibility: hidden;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius: 0.4rem;
+}
+
+#resultado #acoes,
+#historico #acoes {
+    width: 80%;
+    margin: auto;
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#resultado #acoes button,
+#historico #acoes button {
+    cursor: pointer;
+    padding: 0.8rem 1.2rem;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 45%;
+}
+
+#resultado #acoes #salvar {
+    background-color: #5fff67;
+    margin-bottom: 0.8rem;
+}
+
+#resultado #acoes #descartar {
+    background-color: #f3ff47;
+    margin-bottom: 0.8rem;
+}
+
+#resultado #acoes button:hover,
+#historico #acoes button:hover {
+    filter: brightness(0.9);
+}
+
+#historico #acoes button {
+    background-color: #f3ff47;
+}
+
+#historico #acoes #excluir-registros {
+    background-color: tomato;
+}
+
+table {
+    /* border-collapse: collapse; */
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 0.5px solid #e4e4e4;
+    padding: 4px 16px;
+    text-align: center;
+}
+
+#zero-registros {
+    visibility: hidden;
+    visibility: hidden;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    background-color: #fff;
+    padding: 2.4rem;
+    border-radius: 0.4rem;
+}
+
+#zero-registros p {
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.excluir-item {
+    cursor: pointer;
+    color: tomato;
+}

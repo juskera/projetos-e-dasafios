@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#content {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+input {
+    background: none;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid purple;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+}

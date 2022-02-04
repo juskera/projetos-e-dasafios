@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="sec1">
+        <div>
+            <form action="">
+                <p>nome</p>
+                <input type="text" id="nome" name="nome">
+                <p>Monstros</p>
+                <select id="monstros" name="monstros">
+                    <option value="Zumbis">Zumbis</option>
+                    <option value="Fantasmas">Fantasmas</option>
+                    <option value="Lobisomens">Lobisomens</option>
+                    <option value="Vampiros">Vampiros</option>
+                </select>
+                <p>Espécie do protagonista</p>
+                <select id="especie" name="especie">
+                    <option value="Humano">Humano</option>
+                    <option value="Elfos">Elfos</option>
+                    <option value="Anão">Anão</option>
+                    <option value="Gnomo">Gnomo</option>
+                </select>
+                <p>Armamento</p>
+                <select id="armamento" name="armamento">
+                    <option value="Espada Lendaria">Espada Lendaria</option>
+                    <option value="Cajado Magico">Cajado Magico</option>
+                    <option value="Arma de Portais">Arma de Portais</option>
+                    <option value="Flauta Magica">Flauta Magica</option>
+                </select>
+                <p>Local da historia</p>
+                <select id="local" name="local">
+                    <option value="Azeroth">Azeroth</option>
+                    <option value="Narnia">Nárnia</option>
+                    <option value="Terra Media">Terra Media</option>
+                    <option value="Inglaterra">Inglaterra</option>
+                </select>
+                <p>Acidente ocorrido</p>
+                <select id="acidente" name="acidente">
+                    <option value="Guerra Nuclear">Guerra Nuclear</option>
+                    <option value="Mago Maligno">Mago Maligno</option>
+                    <option value="Invasão Alienigena">Invasão Alienigena</option>
+                    <option value="Apocalipse Zumbi">Apocalipse Zumbi</option>
+                </select>
+            </form>
+            <button id="iniciar" onclick="location.href='#sec2'">Iniciar</button>
+        </div>
+    </section>
+
+    <section id="sec2">
+        <div id="content">
+            <p id="textocontent"></p>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

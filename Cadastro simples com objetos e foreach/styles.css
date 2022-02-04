@@ -1,0 +1,83 @@
+* {
+    border: none;
+    margin: none;
+    padding: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* text-align: center; */
+}
+
+#formu {
+    background-image: linear-gradient(to right, #692F68, #EA4CFD);
+    padding: 25px 10px;
+    margin: 100px 350px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: left;
+}
+
+#formu #sim {
+    width: auto;
+}
+
+#formu #nao {
+    width: auto;
+}
+
+#formu input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 44em;
+    border-radius: 10px;
+    color: black;
+}
+
+#formu select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 46em;
+    border-radius: 10px;
+    color: black;
+}
+
+#formu p {
+    margin: 0px;
+    color: white;
+}
+
+#formu #container {
+    width: 100%;
+    text-align: center;
+}
+
+#enviar {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: gray;
+}
+
+#resp {
+    background-image: linear-gradient(to right, #692F68, #EA4CFD);
+    padding: 25px 10px;
+    border-radius: 10px;
+    margin: 100px 50px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black
+}
+
+#resp p {
+    margin: 0;
+}

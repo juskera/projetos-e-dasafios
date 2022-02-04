@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de combustível</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <span id="ver-historico">Ver histórico</span>
+    </header>
+
+    <h3>
+        Insira algumas informações e saiba quanto você gasta com o combustível do seu carro ou moto ;)
+    </h3>
+
+    <form name="dados">
+        <div class="input">
+            <label for="media"> 
+                Quantos km/l seu carro ou moto faz? 
+            </label>
+            <input type="text" name="media" id="media" required>
+        </div>
+        <div class="input">
+            <label for="preco"> 
+                Qual o preço atual da gasolina no posto que você abastece? 
+            </label>
+            <input type="text" name="preco" id="preco" required>
+        </div>
+        <div class="input">
+            <label for="quilometros_dia"> 
+                Quantos km por dia você percorre? 
+            </label>
+            <input type="text" name="quilometros_dia" id="quilometros_dia" required>
+        </div>
+        <div class="input">
+            <label for="dias_semana"> 
+                Quantos dias da semana você anda com o carro ou moto? 
+            </label>
+            <input type="text" name="dias_semana" id="dias_semana" required>
+        </div>
+
+        <div>
+            <button id="btnCalcular"> 
+                Calcular 
+            </button>
+        </div>
+    </form>
+
+    <div id="fundo-modal"></div>
+
+    <div id="resultado">
+        <div id="conteudo-modal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gasto diário</th>
+                        <th>Gasto semanal</th>
+                        <th>Gasto mensal</th>
+                        <th>Gasto anual</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div id="acoes">
+            <button id="salvar"> 
+                Salvar cálculo no histórico 
+            </button>
+            <button id="descartar"> 
+                Descartar e fazer novo cálculo 
+            </button>
+        </div>
+    </div>
+
+    <div id="historico">
+        <div id="conteudo-modal">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Preço gasolina</th>
+                        <th>Média km/l</th>
+                        <th>Gasto diário</th>
+                        <th>Gasto semanal</th>
+                        <th>Gasto mensal</th>
+                        <th>Gasto anual</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="acoes">
+            <button id="fechar"> 
+                Fechar 
+            </button>
+            <button id="excluir-registros"> 
+                Excluir tudo 
+            </button>
+        </div>
+    </div>
+
+    <div id="zero-registros">
+        <p>Nenhum resgistro</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

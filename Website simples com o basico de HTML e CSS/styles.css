@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #2B2D2F;
+}
+
+header nav {
+    overflow: hidden;
+    padding: 15px;
+    background-color: #102b4e;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+}
+
+.text:hover {
+    background-color: #0276b3;
+    color: white;
+}
+
+header nav img {
+    width: 75px;
+    vertical-align: middle;
+    padding: 0 25px;
+}
+
+#informacoes {
+    background-color: #2B2D2F;
+    padding: 25px 30px;
+}
+
+#content {
+    background-color: white;
+    padding: 50px 0px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#content p {
+    font-size: 18px;
+    padding: 20px 100px;
+    text-align: left;
+}
+
+#content #title {
+    padding: 20px 100px;
+    font-weight: bold;
+}
+
+#content img {
+    height: 400px;
+    width: 700px;
+    padding-top: 20px;
+}
+
+#grand {
+    font-size: 40px;
+    text-align: center;
+}
+
+#conteiner {
+    text-align: center;
+}
+
+#logoShelby {
+    text-align: center;
+    height: 100px;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+#contato footer {
+    background-color: #102b4e;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    margin: 15px;
+}

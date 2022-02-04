@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - level 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#level-1">Conteudos do level 1</a>
+            <a href="#level-2">Conteudos do level 2</a>
+        </nav>
+
+        <img src="img/programaçaoGenerica.jpg" alt="">
+    </header>
+
+    <main>
+        <section id="level-1">
+
+            <div id="content">
+                <h1>Level 1</h1>
+
+                <div id="portugol">
+
+                    <h3>Portugues Estruturado</h3>
+
+                    <p id="portugolContentP1"></p>
+
+                    <p id="portugolContentP2"></p>
+
+                    <p id="portugolContentP3"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+                            
+    programa
+    {
+        funcao inicio()
+        {
+            escreva("Olá Mundo")
+        }
+    }
+                            </code> 
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="varPortugol">
+
+                    <h3>Variaveis no Portugol</h3>
+
+                    <P id="varPort1"></P>
+
+                    <P id="varPort2"></P>
+                    <P id="varPort3"></P>
+                    <P id="varPort4"></P>
+                    <P id="varPort5"></P>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    programa
+    {
+        cadeia nomeAluno
+        real nota1, nota2, nota3, media
+        
+        funcao inicio()
+        {
+            nomeAluno = "Lucas"
+        }
+    }
+                            </code>
+                        </pre>
+
+                    </div>
+
+
+                </div>
+
+                <div id="sePortugol">
+
+                    <h3>Condições no Portugol</h3>
+
+                    <p id="sePort1"></p>
+
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    programa
+    {
+    	inteiro numero1, numero2
+    
+    	funcao inicio()
+    	{
+    		escreva("Insira um numero inteiro: ")
+    		leia(numero1)
+
+    		escreva("Insira um numero inteiro: ")
+    		leia(numero2)
+        
+    		se (numero1 > numero2) {
+    			escreva(numero1 + " é maior que " + numero2)
+    		} senao {
+    			escreva(numero2 + " é maior que " + numero1)
+    		}
+    	}
+    }
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="sePort2"></p>
+
+                </div>
+
+                <div id="loopsPortugol">
+
+                    <h3>Loops no Portugol</h3>
+
+                    <p id="loopPort1"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    programa
+    {
+        cadeia nomeAluno
+        inteiro qtdNotas, contador
+        real somaNotas = 0.0, nota, media
+
+        funcao inicio()
+        {
+            escreva("Qual o nome do aluno? ")
+            leia(nomeAluno)
+
+            escreva("Quantas notas serão calculadas? ")
+            leia(qtdNotas)
+
+            para (contador = 0; contador < qtdNotas; contador += 1) {
+                escreva("Insira uma nota calculada: ")
+                leia(nota)
+                somaNotas = somaNotas + nota
+            }
+
+            media = somaNotas / qtdNotas
+             escreva("A média de " + nomeAluno + " é: " + media)
+        }
+
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="loopPort2"></p>
+                    <p id="loopPort3"></p>
+                    <p id="loopPort4"></p>
+                    <p id="loopPort5"></p>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="level-2">
+
+            <div id="content">
+                <h1>Level 2</h1>
+
+                <div id="html">
+
+                    <h3>HTML Basico</h3>
+
+                    <p id="htmlContentP1"></p>
+
+                    <p id="htmlContentP2"></p>
+
+                    <p id="htmlContentP3"></p>
+
+                    <p id="htmlContentP4"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    
+    &lt;/body&gt;
+    &lt;/html&gt;     
+                        </code> 
+                        </pre>
+                    </div>
+                </div>
+
+                <div id="basicoCss">
+
+                    <h3>CSS Basico</h3>
+
+                    <P id="css1"></P>
+                    <P id="css2"></P>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    seletor {
+        propriedade: valor
+    }
+                            </code>
+                        </pre>
+
+                    </div>
+
+
+                </div>
+
+                <div id="hierarquiaCss">
+
+                    <h3>Hierarquia do CSS</h3>
+
+                    <p id="csshier1"></p>
+                    <p id="csshier2"></p>
+
+
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    p {
+        font-size: 32px;
+      }
+      
+      p {
+        font-size: 24px;
+      }
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="csshier3"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    div p {
+        font-size: 32px;
+      }
+      
+      p {
+        font-size: 24px;
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="csshier4"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    div p {
+        font-size: 32px;
+      }
+      
+      p {
+        font-size: 24px !important;
+    
+                            </code>
+                        </pre>
+                    </div>
+
+                </div>
+                <div id="jsvar">
+
+                    <h3>Variaveis do javascript</h3>
+
+                    <p id="var1"></p>
+                    <p id="var2"></p>
+                    <p id="var3"></p>
+                    <div class="code">
+                        <pre>
+                            <code>
+    
+    var variavel1;
+    variavel1 = 'algum valor';
+                                
+                                
+    var variavel2 = 'algum valor';
+
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="var4"></p>
+                    <p id="var5"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    
+    let nome1 = 'Clóvis'
+    var nome2 = 'Clóvis'
+                                
+    console.log(this.nome1);        
+    // Retorna: undefined
+    console.log(this.nome2);
+    // Retorna: Clóvis
+
+                            </code>
+                        </pre>
+                    </div>
+                    <p id="var6"></p>
+                    <p id="var7"></p>
+
+                    <div class="code">
+                        <pre>
+                            <code>
+    
+    const nome = "Lucas";
+
+                            </code>
+                        </pre>
+                    </div>
+
+
+
+                    <p id="loopPort2"></p>
+                    <p id="loopPort3"></p>
+                    <p id="loopPort4"></p>
+                    <p id="loopPort5"></p>
+
+
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
